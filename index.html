@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header center">
+        <h1 class="header__title">Добро пожаловать <br class="header__title-desctop">на мой сайт мини-игр</h1>
+        <p class="header__text">Тебе предстоит пройти несколько увлекательных игр. <br class="header__title-desctop">Если готов, нажимай <strong>«Поехали!»</strong> и <strong>Приступай.</strong></p>
+        <a class="header__button" href="#game">Поехали!</a>
+        <a class="header-mini" href="#miniGames">Поехали!</a>
+    </header>
+    <section class="skrollbar" id="scrollContainer">
+        <div class="skrollbar-cart">
+            <p class="skrollbar-cart__text skrollbar-cart__text_1">ВИКТОРИНА</p>
+            <svg class="skrollbar-cart__img" width="36.000000" height="36.000000" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><desc>Created with Pixso.</desc><defs/>
+                <path id="Star1" d="M18 0L13.13 13.13L0 18L13.13 22.86L18 36L22.86 22.86L36 18L22.86 13.13L18 0Z" fill="#202027" fill-opacity="1.000000" fill-rule="evenodd"/>
+            </svg>
+        </div>
+        <div class="skrollbar-cart">
+            <p class="skrollbar-cart__text">УГАДАЙ ЧИСЛО</p>
+            <svg class="skrollbar-cart__img" width="36.000000" height="36.000000" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><desc>Created with Pixso.</desc><defs/>
+                <path id="Star2" d="M18 0L13.13 13.13L0 18L13.13 22.86L18 36L22.86 22.86L36 18L22.86 13.13L18 0Z" fill="#202027" fill-opacity="1.000000" fill-rule="evenodd"/>
+            </svg>
+        </div>
+        <div class="skrollbar-cart">
+            <p class="skrollbar-cart__text">ПЕРЕВЕРИ ТЕКСТ</p>
+            <svg class="skrollbar-cart__img" width="36.000000" height="36.000000" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><desc>Created with Pixso.</desc><defs/>
+                <path id="Star3" d="M18 0L13.13 13.13L0 18L13.13 22.86L18 36L22.86 22.86L36 18L22.86 13.13L18 0Z" fill="#202027" fill-opacity="1.000000" fill-rule="evenodd"/>
+            </svg>
+        </div>
+        <div class="skrollbar-cart">
+            <p class="skrollbar-cart__text">ПРОСТАЯ АРИФМЕТИКА</p>
+            <svg class="skrollbar-cart__img" width="36.000000" height="36.000000" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><desc>Created with Pixso.</desc><defs/>
+                <path id="Star4" d="M18 0L13.13 13.13L0 18L13.13 22.86L18 36L22.86 22.86L36 18L22.86 13.13L18 0Z" fill="#202027" fill-opacity="1.000000" fill-rule="evenodd"/>
+            </svg>
+        </div>
+        <div class="skrollbar-cart">
+            <p class="skrollbar-cart__text">КАМЕНЬ, НОЖНИЦЫ, БУМАГА</p>
+            <svg class="skrollbar-cart__img" width="36.000000" height="36.000000" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><desc>Created with Pixso.</desc><defs/>
+                <path id="Star5" d="M18 0L13.13 13.13L0 18L13.13 22.86L18 36L22.86 22.86L36 18L22.86 13.13L18 0Z" fill="#202027" fill-opacity="1.000000" fill-rule="evenodd"/>
+            </svg>
+        </div>
+        <div class="skrollbar-cart">
+            <p class="skrollbar-cart__text">ГЕНЕРАТОР СЛУЧАЙНЫХ ЦВЕТОВ</p>
+            <svg class="skrollbar-cart__img" width="36.000000" height="36.000000" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><desc>Created with Pixso.</desc><defs/>
+                <path id="Star6" d="M18 0L13.13 13.13L0 18L13.13 22.86L18 36L22.86 22.86L36 18L22.86 13.13L18 0Z" fill="#202027" fill-opacity="1.000000" fill-rule="evenodd"/>
+            </svg> 
+        </div>
+    </section>
+    <section class="games-box center" id="game">
+        <h2 class="games-box__title">Об играх</h2>
+        <p class="games-box__text">В моей коллекции представлено 6 игр на разные темы.<br>Игры несложные — в них может поиграть каждый.<br>Все игры доступны для пользования.</p>
+        <div class="game-content">
+            <article class="game-cart">
+                <a class="game-cart__img" href="#Number">
+                    <div class="game-cart__item game-cart__item_1"></div>
+                    <div class="game-cart__number">Игра № 1</div>
+                    <div class="game-cart__text">Угадай число</div>
+                </a>
+            </article>
+            <article class="game-cart">
+                <a class="game-cart__img" href="#Arithmetic">
+                    <div class="game-cart__item game-cart__item_2"></div>
+                    <div class="game-cart__number">Игра № 2</div>
+                    <div class="game-cart__text">Простая арифметика</div>
+                </a>
+            </article>
+            <article class="game-cart">
+                <a class="game-cart__img" href="#Text">
+                    <div class="game-cart__item game-cart__item_3"></div>
+                    <div class="game-cart__number">Игра № 3</div>
+                    <div class="game-cart__text">Переверни текст</div>
+                </a>
+            </article>
+            <article class="game-cart">
+                <a class="game-cart__img" href="#KNB">
+                    <div class="game-cart__item game-cart__item_4"></div>
+                    <div class="game-cart__number">Игра № 4</div>
+                    <div class="game-cart__text">Камень,<br>ножницы,<br>бумага</div>
+                </a>
+            </article>
+            <article class="game-cart">
+                <a class="game-cart__img" href="#Quiz">
+                    <div class="game-cart__item game-cart__item_5"></div>
+                    <div class="game-cart__number">Игра № 5</div>
+                    <div class="game-cart__text">Простая<br>викторина</div>
+                </a>
+            </article>
+            <article class="game-cart">
+                <a class="game-cart__img" href="#Generator">
+                    <div class="game-cart__item game-cart__item_6"></div>
+                    <div class="game-cart__number">Игра № 6</div>
+                    <div class="game-cart__text">Генератор случайных<br>цветов</div>
+                </a>
+            </article>
+        </div>
+    </section>
+    <section class="mini-games-box center" id="miniGames">
+        <h2 class="mini-games-box__title">Мини-игры</h2>
+        <div class="mini-games-content">
+            <article class="miniGames-card">
+                <div class="card-info">
+                    <h2 class="card-info__title" id="Number">Угадай число</h2>
+                    <p class="card-info__desc">Попробуй угадать случайное<br>число от 1 до 100.</p>
+                    <button class="card-info__btn" onclick="playGame1()">Играть!</button>
+                </div>
+                <img class="card-img" src="./img/mimiGame1.jpeg" alt="Игра 1">
+            </article>
+            <article class="miniGames-card">
+                <div class="card-info">
+                    <h2 class="card-info__title" id="Arithmetic">Простая<br>арифметика</h2>
+                    <p class="card-info__desc">Попробуй решить простые<br>арифметические задачи.</p>
+                    <button class="card-info__btn" onclick="playGame2()">Играть!</button>
+                </div>
+                <img class="card-img" src="./img/miniGame2.jpeg" alt="Игра 2">
+            </article>
+            <article class="miniGames-card">
+                <div class="card-info">
+                    <h2 class="card-info__title" id="Text">Переверни текст</h2>
+                    <p class="card-info__desc">Попробуй ввести текст, который<br>будет перевернут.</p>
+                    <button class="card-info__btn" onclick="playGame3()">Играть!</button>
+                </div>
+                <img class="card-img" src="./img/miniGame3.jpeg" alt="Игра 3">
+            </article>
+            <article class="miniGames-card">
+                <div class="card-info">
+                    <h2 class="card-info__title" id="Quiz">Викторина</h2>
+                    <p class="card-info__desc">Отвечай на вопросы викторины <br>с вариантами ответов.</p>
+                    <button class="card-info__btn" onclick="playGame4()">Играть!</button>
+                </div>
+                <img class="card-img" src="./img/miniGame4.jpeg" alt="Игра 4">
+            </article>
+            <article class="miniGames-card">
+                <div class="card-info">
+                    <h2 class="card-info__title" id="KNB">Камень,<br>ножницы,<br>бумага</h2>
+                    <p class="card-info__desc">Сыграй в популярную игру<br>против компьютера.</p>
+                    <button class="card-info__btn" onclick="playGame5()">Играть!</button>
+                </div>
+                <img class="card-img" src="./img/miniGame5.jpeg" alt="Игра 5">
+            </article>
+            <article class="miniGames-card">
+                <div class="card-info">
+                    <h2 class="card-info__title" id="Generator">Генератор <br>случайных <br>цветов</h2>
+                    <p class="card-info__desc">Игра, в которой при клике на кнопку фон страницы меняется на случайный.</p>
+                    <button id= "changeBackgroundBtn" class="card-info__btn">Играть!</button>
+                </div>
+                <img class="card-img" src="./img/miniGame6.jpeg" alt="Игра 6">
+            </article>
+        </div>
+    </section>
+    <footer class="game-footer">
+        <p class="game-footer__text">Все права защищены.</p>
+    </footer>
+    
+    <script src="GAMES.js"></script>
+</body>
+</html>
